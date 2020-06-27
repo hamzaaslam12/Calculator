@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="style.css">
+</head>
+<body>
+          <table>
+                    <tr><td colspan="5"><input type="number" id="inputBox"></td></tr>
+                    <tr>
+                              <td colspan="2"><button onClick="clearInp()">C</button></td>
+                              <td colspan="2"><button onClick="takeInp('/')">/</button></td>
+                    </tr>
+                    <tr>
+                              <td><button onClick="takeInp('7')">7</button></td>
+                              <td><button onClick="takeInp('8')">8</button></td>
+                              <td><button onClick="takeInp('9')">9</button></td>
+                              <td><button onClick="takeInp('*')">*</button></td>
+                    </tr>
+                    <tr>
+                              <td><button onClick="takeInp('4')">4</button></td>
+                              <td><button onClick="takeInp('5')">5</button></td>
+                              <td><button onClick="takeInp('6')">6</button></td>
+                              <td><button onClick="takeInp('-')">-</button></td>
+                    </tr>
+                    <tr>
+                              <td><button onClick="takeInp('1')">1</button></td>
+                              <td><button onClick="takeInp('2')">2</button></td>
+                              <td><button onClick="takeInp('3')">3</button></td>
+                              <td><button onClick="takeInp('+')">+</button></td>
+                    </tr>
+                    <tr>
+                              <td colspan = '2'><button onClick="takeInp('0')">0</button></td>
+                              <td><button onClick="takeInp('.')">.</button></td>
+                              <td><button onClick="takeResult('=')">=</button></td>
+                    </tr>
+          </table>
+          
+</body>
+
+<script src="app.js"></script>
+</html>
